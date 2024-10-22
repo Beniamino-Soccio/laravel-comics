@@ -9,20 +9,20 @@
 
     @yield("additional-cdn")
 </head>
-<body>
+    <body>
 
-    {{-- includi header--}}
-    @include("partials.header")
+        {{-- includi header--}}
+        @include("partials.header")
 
-    {{-- inserisci contenuti da chi estende --}}
-    <main>
-        @yield("main-content")
-    </main>
+        {{-- inserisci contenuti da chi estende --}}
+        <main>
+            @yield("main-content")
+        </main>
 
-    {{-- includi footer--}}
-    @include("partials.footer")
+        {{-- includi footer--}}
+        @include("partials.footer")
 
-    @vite("resources/js/app.js")
-    @yield("additional-scripts")
+        @vite("resources/js/app.js")
+        @yield("additional-scripts")
 </body>
 </html>
