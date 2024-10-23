@@ -33,14 +33,12 @@
                             thumb: {{$singleComic["thumb"]}}
                         </li>
                     </ul>--}}
-                    <div class="card" style="width: 18rem;">
+                    <div class="card mb-3">
                         <img src="{{$singleComic["thumb"]}}" class="card-img-top" alt="{{$singleComic["title"]}}">
-                        <div class="card-body">
-                          <p class="card-text">name: {{$singleComic["title"]}}</p>
-                          <p class="card-text">price: {{$singleComic["price"]}}</p>
-                          <p class="card-text">series: {{$singleComic["series"]}}</p>
-                          <p class="card-text">sale date: {{$singleComic["sale_date"]}}</p>
-                          <p class="card-text">type: {{$singleComic["type"]}}</p>
+                        <div class="card-body text-center">
+                          <h5 class="card-text fw-bold fs-6">{{$singleComic["title"]}}</h5>
+                          <p class="card-text"> <span class="fw-bold">Price:</span>  {{$singleComic["price"]}}</p>
+                          <p class="card-text"> <span class="fw-bold">Series:</span>  {{$singleComic["series"]}}</p>
                         </div>
                     </div>
                 </div>
