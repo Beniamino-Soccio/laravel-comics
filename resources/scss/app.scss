@@ -7,11 +7,14 @@ ul{
     list-style-type: none;
 }
 img{
+    max-height: 600px;
+}
+#img-cards-comics{
     max-height: 350px;
 }
 p{
     margin-bottom: 10px;
 }
-.card{
-    height: 520px;
+#cards-comics{
+    height: 550px;
 }
