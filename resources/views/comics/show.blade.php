@@ -5,7 +5,8 @@
 @section("main-content")
 
     <div class="container">
-        <h1 class="fw-bold text-center p-5">DC Comic</h1>
+        <h1 class="fw-bold text-center p-3">DC Comic</h1>
+        <h2 class="text-center mb-5">{{ $comic["title"] }}</h2>
         <div class="row justify-content-center">
             <div class="col-8">
                 <div class="card mb-3">
