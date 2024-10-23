@@ -19,6 +19,6 @@ Route::get('/', function () {
 
 Route::get('/', function () {
     $comics = config("comics.dc_comic");
-    return view('pages.comics', compact("comics"));
-});
+    return view('comics.comics', compact("comics"));
+})->name("comics");
 
